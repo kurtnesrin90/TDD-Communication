@@ -1,6 +1,6 @@
 package org.example;
 
-public class AddUpTheASCIICodes {
+public class Kata3 {
     public static int addUpTheASCIICodes(String input){
 
         // convert string intput to char array
@@ -10,11 +10,9 @@ public class AddUpTheASCIICodes {
         // iterate through each char and calculate ASCII code
         for (char letter : inputArray){
 
+            // Add ASCII to sumtotal
             sumTotal += (int) letter;
-//            System.out.println(sumTotal);
         }
-
-        // Add ASCII to sumtotal
 
         return sumTotal;
     };

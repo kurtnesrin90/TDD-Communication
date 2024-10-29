@@ -1,6 +1,6 @@
 package org.example;
 
-public class CalculateTheMean {
+public class Kata2 {
 
     public static double calculateTheMean(int[] input){
 

@@ -1,6 +1,6 @@
 package org.example;
 
-public class SumTheMiddleNumbers {
+public class Kata1 {
     public static int sumTheMiddleNumbers(int[] input){
         int largest = 0;
         int smallest = Integer.MAX_VALUE;

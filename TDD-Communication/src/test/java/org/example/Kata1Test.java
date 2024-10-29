@@ -1,12 +1,11 @@
 package org.example;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class SumTheMiddleNumbersTest {
+public class Kata1Test {
 
 //    @org.junit.jupiter.api.Test
     @Test
@@ -19,9 +18,9 @@ public class SumTheMiddleNumbersTest {
         int [] testInput3 = new int[]{1,2};
 
         //Act
-        int result1 = SumTheMiddleNumbers.sumTheMiddleNumbers(testInput1);
-        int result2 = SumTheMiddleNumbers.sumTheMiddleNumbers(testInput2);
-        int result3 = SumTheMiddleNumbers.sumTheMiddleNumbers(testInput3);
+        int result1 = Kata1.sumTheMiddleNumbers(testInput1);
+        int result2 = Kata1.sumTheMiddleNumbers(testInput2);
+        int result3 = Kata1.sumTheMiddleNumbers(testInput3);
 
         //Assert
         assertEquals(21, result1);
