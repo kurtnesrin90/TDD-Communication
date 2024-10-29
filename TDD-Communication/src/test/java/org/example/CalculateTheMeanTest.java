@@ -11,11 +11,15 @@ class CalculateTheMeanTest {
     @DisplayName("Test returns the average value of the array")
     public void testCalculateTheMean() {
         //Arrange
-        int[] input1 = new int[]{1, 2, 3};
+        int[] input1 = new int[]{40, 16, 5, 8};
+        int[] input2 = new int[]{40, 16, 5, 8, 0};
+
         //Act
-        double result = CalculateTheMean.calculateTheMean(input1);
+        double result1 = CalculateTheMean.calculateTheMean(input1);
+        double result2 = CalculateTheMean.calculateTheMean(input2);
         //Assert
-        assertEquals(2 ,result);
+        assertEquals(17.25 ,result1);
+        assertEquals(13.8 ,result2);
 
     }
 }

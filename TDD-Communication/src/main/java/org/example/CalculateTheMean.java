@@ -10,6 +10,7 @@ public class CalculateTheMean {
             average += elements;
         }
         average = average / input.length;
+
         return average;
     }
 
