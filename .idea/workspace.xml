@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b34406b-a867-4526-a7fc-b24cf31e467c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TDD-Communication/src/main/java/org/example/CalculateTheMean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TDD-Communication/src/test/java/org/example/CalculateTheMeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-Communication/src/main/java/org/example/Kata4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD-Communication/src/test/java/org/example/Kata4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +36,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.AddUpTheASCIICodesTest.executor": "Run",
     "JUnit.CalculateTheMeanTest.executor": "Run",
+    "JUnit.Kata4Test.executor": "Run",
+    "JUnit.Kata4Test.testLikesAndDislikes1.executor": "Run",
+    "JUnit.Kata4Test.testLikesAndDislikes2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ed/Northcoders/fundamentals/TDD-Communication"
+    "last_opened_file_path": "/Users/ed/Northcoders/fundamentals/TDD-Communication",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,7 +59,22 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Kata4Test.testLikesAndDislikes2">
+    <configuration name="AddUpTheASCIICodesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-Communication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AddUpTheASCIICodesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculateTheMeanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-Communication" />
       <extension name="coverage">
@@ -67,8 +90,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Kata4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-Communication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Kata4Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kata4Test.testLikesAndDislikes1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-Communication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Kata4Test" />
+      <option name="METHOD_NAME" value="testLikesAndDislikes1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kata4Test.testLikesAndDislikes2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-Communication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Kata4Test" />
+      <option name="METHOD_NAME" value="testLikesAndDislikes2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Kata4Test.testLikesAndDislikes2" />
+        <item itemvalue="JUnit.Kata4Test.testLikesAndDislikes1" />
+        <item itemvalue="JUnit.Kata4Test" />
+        <item itemvalue="JUnit.AddUpTheASCIICodesTest" />
         <item itemvalue="JUnit.CalculateTheMeanTest" />
       </list>
     </recent_temporary>
